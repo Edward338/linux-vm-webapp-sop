@@ -1,5 +1,4 @@
- ✅ SOP: Setup a Virtual Linux Server for Web Application Testing
-🔖 Document Version & Approval
+SOP: Setup a Virtual Linux Server for Web Application Testin Document Version & Approval
 
 | Version | Date       | Name           | Role       |
 |---------|------------|----------------|------------|
@@ -8,19 +7,18 @@
 | 1.1     | TBD        | Approver Name  | Approver   |
 
 ---
- 📌 Purpose
+Purpose
 
 This Standard Operating Procedure (SOP) outlines the standardized process for provisioning and configuring a virtual Linux server used for functional web application testing. The procedure ensures consistent setup, security compliance, and support for automated test environments.
 
 ---
 
- 🔍 Scope
+  Scope
 
 This SOP applies to IT administrators, DevOps engineers, QA testers, and system integrators who are responsible for setting up and managing virtual environments for testing web applications prior to production deployment.
 
 ---
-
-🎯 Objectives
+ Objectives
 
 - Provision a virtual server on VirtualBox or VMware.
 - Install Ubuntu Server 22.04 LTS as the base OS.
@@ -28,8 +26,7 @@ This SOP applies to IT administrators, DevOps engineers, QA testers, and system 
 - Install a LAMP/LEMP stack to host test applications.
 - Enable a secure, testable environment for web app QA.
 
----
-🧾 Accountability Matrix
+--- Accountability Matrix
 
 | Task | Responsible Party | Notes |
 |------|-------------------|-------|
@@ -39,8 +36,7 @@ This SOP applies to IT administrators, DevOps engineers, QA testers, and system 
 | Testing Deployment | QA Team | Automation & app deployment |
 | Documentation | Technical Writer | Update SOP repo |
 
----
-📘 Definitions
+--- Definitions
 
 | Term | Definition |
 |------|------------|
@@ -50,7 +46,7 @@ This SOP applies to IT administrators, DevOps engineers, QA testers, and system 
 | UFW | Uncomplicated Firewall |
 | WebApp | Web Application |
 
- 🛠️ Procedure Steps
+Procedure Steps
 
 Step 1: Pre-setup Planning
 
@@ -149,7 +145,7 @@ sudo apt install nginx mysql-server php-fpm php-mysql -y
 
 ---
 
- 🗂️ Revision History
+  Revision History
 
 | Version | Date       | Changes Made By | Summary of Changes |
 |---------|------------|------------------|---------------------|
@@ -157,7 +153,7 @@ sudo apt install nginx mysql-server php-fpm php-mysql -y
 
 ---
 
- ✅ Notes
+ Notes
 
 - You may optionally enable phpMyAdmin or install Node.js based on the test app framework.
 - Always snapshot the VM after setup for backup.
